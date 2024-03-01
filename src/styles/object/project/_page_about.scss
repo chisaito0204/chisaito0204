@@ -1,0 +1,105 @@
+.about {
+    &Content {
+        background:
+            linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+            url("../img/about/about-bg.jpg") repeat;
+        background-size: 100%;
+        @include media(lg) {
+            margin-top: 60px;
+            padding: 100px 0 400px;
+            margin-bottom: -200px;
+        }
+        @include media(sm) {
+            padding: 100px 0 200px;
+            margin-top: 40px;
+            margin-bottom: -100px;
+        }
+        &Inner {
+            clip-path: polygon(100% 0, 0% calc(0% + 9vw), 0% calc(100% - 5vw), 100% 100%);
+            background-color: rgba(255, 230, 229, 0.7);
+            margin: 0 auto;
+            font-family: $noto;
+            @include media(lg) {
+                padding: 200px 240px;
+            }
+            @include media(sm) {
+                padding: 100px 30px;
+            }
+            &__txt01 {
+                @include media(lg) {
+                    @include fontsize(16);
+                    margin-bottom: 50px;
+                }
+                @include media(sm) {
+                    @include fontsize(14);
+                    line-height: 150%;
+                    margin-bottom: 30px;
+                }
+            }
+            &__txt02 {
+                display: inline-block;
+                font-weight: 400;
+                position: relative;
+                z-index: 10;
+                @include media(lg) {
+                    @include fontsize(24);
+                    margin-bottom: 40px;
+                }
+                @include media(sm) {
+                    @include fontsize(20);
+                    margin-bottom: 30px;
+                }
+                &-en {
+                    display: inline-block;
+                    font-family: $poppins;
+                    color: #adadad;
+                    font-weight: 200;
+                    @include media(lg) {
+                        @include fontsize(52);
+                        margin-left: -60px;
+                    }
+                    @include media(sm) {
+                        @include fontsize(28);
+                    }
+                }
+            }
+            &__txt03 {
+                @include media(lg) {
+                    @include fontsize(16);
+                    margin-bottom: 60px;
+                    line-height: 2.2rem;
+                }
+                @include media(sm) {
+                    @include fontsize(14);
+                    line-height: 2rem;
+                    margin-bottom: 40px;
+                }
+                .large {
+                    @include media(lg) {
+                        @include fontsize(32);
+                    }
+                    @include media(sm) {
+                        @include fontsize(28);
+                    }
+                }
+                .sub{
+                    font-weight: 500;
+                    @include fontsize(18);
+                }
+                &Box {
+                    background: #fff;
+                    @include media(lg) {
+                        border-radius: 0.8rem;
+                        padding: 15px 20px;
+                        margin: 20px 0;
+                    }
+                    @include media(sm) {
+                        border-radius: 0.5rem;
+                        padding: 10px 15px;
+                        margin: 15px 0;
+                    }
+                }
+            }
+        }
+    }
+}

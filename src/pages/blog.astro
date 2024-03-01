@@ -1,0 +1,107 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Blog" description="仕事で行き詰まったことなど投稿するページ" image="/assets/img/ogp/mv.jpg">
+  <main slot="body">
+    <section class="blog">
+      <div class="modTtlBox">
+        <h2 class="modTitle blog">Blog..</h2>
+        <ul class="modBreadCrumb">
+          <li><a href="/">Home</a></li>
+          <li>ブログ</li>
+        </ul>
+      </div>
+      <div class="blog__list">
+
+        <p class="blog__listTitle">備忘録</p>
+        <div class="blog__listInner">
+          <div class="blog__listInnerBox">
+            <article class="blog__listInnerArticle">
+              <figure class="blog__listInnerArticle--thumb">
+                <img src="/assets/img/blog/thumb.jpg" width="300" height="300" alt="タイトル入る" />
+              </figure>
+              <div class="blog__listInnerArticle--box">
+                <p class="blog__listInnerArticle--date">2024/01/01</p>
+                <p class="blog__listInnerArticle--tag">JavaScript</p>
+                <h2 class="blog__listInnerArticle--title">タイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入る</h2>
+                <p class="blog__listInnerArticle--text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="blog__listInnerArticle--more">read more</p>
+                <a class="blogLink" href="/blog/detail"></a>
+              </div>
+            </article>
+
+            <article class="blog__listInnerArticle">
+              <figure class="blog__listInnerArticle--thumb">
+                <img src="/assets/img/blog/thumb.jpg" width="300" height="300" alt="タイトル入る" />
+              </figure>
+              <div class="blog__listInnerArticle--box">
+                <p class="blog__listInnerArticle--date">2024/01/01</p>
+                <p class="blog__listInnerArticle--tag">JavaScript</p>
+                <h2 class="blog__listInnerArticle--title">タイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入る</h2>
+                <p class="blog__listInnerArticle--text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="blog__listInnerArticle--more">read more</p>
+                <a class="blogLink" href=""></a>
+              </div>
+            </article>
+
+            <article class="blog__listInnerArticle">
+              <figure class="blog__listInnerArticle--thumb">
+                <img src="/assets/img/blog/thumb.jpg" width="300" height="300" alt="タイトル入る" />
+              </figure>
+              <div class="blog__listInnerArticle--box">
+                <p class="blog__listInnerArticle--date">2024/01/01</p>
+                <p class="blog__listInnerArticle--tag">JavaScript</p>
+                <h2 class="blog__listInnerArticle--title">タイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入るタイトル入る</h2>
+                <p class="blog__listInnerArticle--text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="blog__listInnerArticle--more">read more</p>
+                <a class="blogLink" href=""></a>
+              </div>
+            </article>
+          </div>
+
+          <aside class="blog__listInnerSidebar">
+            <form class="searchForm" action="" method="get">
+              <button class="searchBtn" type="submit">
+                <figure class="icon"><img src="/assets/img/common/icon_search.svg" width="32" height="32" alt="検索マーク" /></figure>
+              </button>
+              <input class="searchInput" type="search" value="" name="s" id="s" />
+            </form>
+            <p class="blog__listInnerSidebar--txt">category</p>
+            <ul class="blog__listInnerSidebar--cate">
+              <li class="blog__listInnerSidebar--cateText"><a href="">HTML(4)</a></li>
+              <li class="blog__listInnerSidebar--cateText"><a href="">CSS(2)</a></li>
+              <li class="blog__listInnerSidebar--cateText"><a href="">JavaScript(5)</a></li>
+              <li class="blog__listInnerSidebar--cateText"><a href="">GSAP(5)</a></li>
+              <li class="blog__listInnerSidebar--cateText"><a href="">その他(5)</a></li>
+            </ul>
+            <p class="blog__listInnerSidebar--txt">archive</p>
+            <ul class="blog__listInnerSidebar--cate">
+              <li class="blog__listInnerSidebar--cateText"><a href="">2024(4)</a></li>
+              <li class="blog__listInnerSidebar--cateText"><a href="">2023(2)</a></li>
+              <li class="blog__listInnerSidebar--cateText"><a href="">2022(5)</a></li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="navi" id="navi">
+          <a class="prev" href="?page=">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M10 3L3.14732 10.2829L10.0271 17.5402" stroke="#000" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+          </a>
+          <p class="num">1</p>
+          <a data-idx="2" href="?page=" class="num">2</a>
+          <a data-idx="3" href="?page=" class="num">3</a>
+          <span>· · ·</span>
+          <a data-idx="6" href="?page=" class="num">6</a>
+          <a class="next" href="?page=">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M10 17L16.8527 9.71709L9.9729 2.45976" stroke="#000" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main></Layout
+>
