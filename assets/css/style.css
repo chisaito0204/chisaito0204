@@ -286,6 +286,10 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.header__spSideMenu .cLogo img {
+  width: 100%;
+  height: auto;
+}
 @media (min-width: 960px) {
   .header__spSideMenu__list {
     margin-top: 80px;
@@ -358,6 +362,7 @@ button {
 }
 .header__spSideMenu__sns a img {
   width: 100%;
+  height: auto;
 }
 
 .footer {
@@ -463,12 +468,13 @@ button {
     justify-content: center;
     gap: 20px;
   }
-  .footer__navLinkSns a {
-    width: 40px;
-  }
-  .footer__navLinkSns a img {
-    width: 100%;
-  }
+}
+.footer__navLinkSns > a {
+  width: 40px;
+}
+.footer__navLinkSns > a img {
+  width: 100%;
+  height: auto;
 }
 .footer .copyright {
   color: #000;
@@ -2112,6 +2118,10 @@ button {
     display: none;
   }
 }
+.blog__listInnerArticle--text a {
+  color: #0693e3;
+  border-bottom: solid 1px #0693e3;
+}
 .blog__listInnerArticle--more {
   font-family: "Poppins", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
   position: relative;
@@ -2460,14 +2470,26 @@ button {
   .aboutContentInner__txt02 {
     font-size: 20px;
     font-size: 1.25rem;
-    margin-bottom: 30px;
+  }
+}
+.aboutContentInner__txt02 > span {
+  font-family: "Poppins", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 30px;
+  font-size: 1.875rem;
+  font-weight: 200;
+  font-style: italic;
+}
+@media (max-width: 959px) {
+  .aboutContentInner__txt02 > span {
+    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 .aboutContentInner__txt02-en {
   display: inline-block;
   font-family: "Poppins", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
   color: #adadad;
-  font-weight: 200;
+  font-weight: 100;
 }
 @media (min-width: 960px) {
   .aboutContentInner__txt02-en {
@@ -2478,9 +2500,15 @@ button {
 }
 @media (max-width: 959px) {
   .aboutContentInner__txt02-en {
-    font-size: 28px;
-    font-size: 1.75rem;
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    font-weight: 200;
   }
+}
+.aboutContentInner__txt03 {
+  color: #333;
 }
 @media (min-width: 960px) {
   .aboutContentInner__txt03 {
@@ -2494,7 +2522,7 @@ button {
   .aboutContentInner__txt03 {
     font-size: 14px;
     font-size: 0.875rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
     margin-bottom: 40px;
   }
 }
@@ -2630,6 +2658,277 @@ button {
 @media (max-width: 959px) {
   .lum-img {
     max-width: 100% !important;
+  }
+}
+.demo01Flow {
+  position: relative;
+  width: 100%;
+  margin-bottom: -100px;
+}
+.demo01FlowInner {
+  position: relative;
+  z-index: 30;
+  margin: 0 auto;
+}
+.demo01FlowText {
+  color: #000;
+  font-family: "Noto Sans JP", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  position: relative;
+  font-weight: 500;
+  line-height: 200%;
+  letter-spacing: 0.64px;
+  z-index: 30;
+}
+@media (min-width: 960px) {
+  .demo01FlowText {
+    height: 100vh;
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-align: center;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowText {
+    height: 50vh;
+    font-size: 16px;
+    font-size: 1rem;
+  }
+}
+.demo01FlowText--txt01, .demo01FlowText--txt02 {
+  position: absolute;
+}
+@media (min-width: 960px) {
+  .demo01FlowText--txt01, .demo01FlowText--txt02 {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowText--txt01, .demo01FlowText--txt02 {
+    display: inline-block;
+    top: 30%;
+    left: 5%;
+    transform: none;
+    text-align: left;
+  }
+}
+.demo01FlowImgs--img01 .img01 {
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+}
+@media (min-width: 960px) {
+  .demo01FlowImgs--img01 .img01 {
+    height: 15vw;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowImgs--img01 .img01 {
+    width: 100%;
+    height: auto;
+  }
+}
+.demo01FlowImgs--img01 .img01 img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (min-width: 1024px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(1) {
+    top: 8%;
+    right: 5%;
+    width: 250px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(1) {
+    top: 8%;
+    right: 5%;
+    width: 303px;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(1) {
+    top: 13%;
+    right: 0;
+    width: 200px;
+  }
+}
+.demo01FlowImgs--img01 .img01:nth-of-type(2) {
+  left: 0;
+}
+@media screen and (min-width: 1024px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(2) {
+    top: 12%;
+    width: 230px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(2) {
+    top: 12%;
+    width: 288px;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(2) {
+    top: 18%;
+    width: 140px;
+  }
+}
+.demo01FlowImgs--img01 .img01:nth-of-type(3) {
+  right: 0;
+}
+@media screen and (min-width: 1024px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(3) {
+    top: 25%;
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(3) {
+    top: 25%;
+    width: 400px;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(3) {
+    top: 30%;
+    width: 210px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(4) {
+    top: 30%;
+    left: 17%;
+    width: 260px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(4) {
+    top: 30%;
+    left: 17%;
+    width: 320px;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(4) {
+    top: 40%;
+    left: 0;
+    width: 250px;
+  }
+}
+.demo01FlowImgs--img01 .img01:nth-of-type(5) {
+  right: 0;
+}
+@media screen and (min-width: 1024px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(5) {
+    top: 37%;
+    right: 20%;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(5) {
+    top: 37%;
+    right: 23%;
+    width: 200px;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(5) {
+    top: 65%;
+    width: 140px;
+  }
+}
+.demo01FlowImgs--img01 .img01:nth-of-type(6) {
+  right: 0;
+}
+@media screen and (min-width: 1024px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(6) {
+    top: 50%;
+    left: 0;
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(6) {
+    top: 50%;
+    left: 0;
+    width: 360px;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(6) {
+    top: 55%;
+    left: 0;
+    width: 140px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(7) {
+    top: 55%;
+    right: 20%;
+    width: 250px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(7) {
+    top: 55%;
+    right: 20%;
+    width: 250px;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(7) {
+    top: 65%;
+    right: 20%;
+    width: 140px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(8) {
+    top: 67%;
+    right: 5%;
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(8) {
+    top: 67%;
+    right: 5%;
+    width: 360px;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(8) {
+    top: 67%;
+    right: 5%;
+    width: 140px;
+  }
+}
+.demo01FlowImgs--img01 .img01:nth-of-type(9) {
+  right: 0;
+}
+@media screen and (min-width: 1024px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(9) {
+    top: 70%;
+    left: 20%;
+    width: 310px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(9) {
+    top: 70%;
+    left: 20%;
+    width: 350px;
+  }
+}
+@media (max-width: 959px) {
+  .demo01FlowImgs--img01 .img01:nth-of-type(9) {
+    top: 70%;
+    left: 20%;
+    width: 140px;
   }
 }
 

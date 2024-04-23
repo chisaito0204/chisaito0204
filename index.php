@@ -150,7 +150,7 @@ get_header();
 					<p class="top__aboutBox__profile02--txt01 poppins"><span class="sk">Languages</span></p>
 					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・HTML5 / CSS(sass) / PHP / JavaScript / TypeScript / MySQL</span></p>
 					<p class="top__aboutBox__profile02--txt01 poppins"><span class="sk">Library・Framework・CMS・etc</span></p>
-					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・gulp / webpack / ejs / Astro / Vue.js / Node.js / npm script / Babel / jQuery / GSAP / Swiper.js / lenis / WordPress / EC-CUBE /Smarty / Twig</span></p>
+					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・gulp / webpack / ejs / Astro / Vue.js / Node.js / npm script / Babel / jQuery / GSAP / Swiper.js / lenis / Tailwind CSS / WordPress / EC-CUBE /Smarty / Twig / microCMS</span></p>
 					<p class="top__aboutBox__profile02--ttl">
 						<span class="num poppins">04</span> . Favorite <span class="sub noto">すき<span class="white">な</span>もの</span>
 					</p>

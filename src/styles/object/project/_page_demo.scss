@@ -1,0 +1,218 @@
+.demo01 {
+    &Flow {
+        position: relative;
+        width: 100%;
+        margin-bottom: -100px;
+        &Inner {
+            position: relative;
+            z-index: 30;
+            margin: 0 auto;
+        }
+        &Text {
+            color: #000;
+            font-family: $noto;
+            position: relative;
+            font-weight: 500;
+            line-height: 200%;
+            letter-spacing: 0.64px;
+            z-index: 30;
+            @include media(lg) {
+                height: 100vh;
+                @include fontsize(18);
+                text-align: center;
+            }
+            @include media(sm) {
+                height: 50vh;
+                @include fontsize(16);
+            }
+            &--txt01,
+            &--txt02 {
+                position: absolute;
+                @include media(lg) {
+                    text-align: center;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                @include media(sm) {
+                    display: inline-block;
+                    top: 30%;
+                    left: 5%;
+                    transform: none;
+                    text-align: left;
+                }
+            }
+        }
+        &Imgs {
+            &--img01 {
+                .img01 {
+                    display: inline-block;
+                    position: absolute;
+                    z-index: 10;
+                    @include media(lg) {
+                        height: 15vw;
+                    }
+                    @include media(sm) {
+                        width: 100%;
+                        height: auto;
+                    }
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    &:nth-of-type(1) {
+                        @media screen and (min-width: 1024px) {
+                            top: 8%;
+                            right: 5%;
+                            width: 250px;
+                        }
+                        @media screen and (min-width: 1440px) {
+                            top: 8%;
+                            right: 5%;
+                            width: 303px;
+                        }
+                        @include media(sm) {
+                            top: 13%;
+                            right: 0;
+                            width: 200px;
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        left: 0;
+                        @media screen and (min-width: 1024px) {
+                            top: 12%;
+                            width: 230px;
+                        }
+                        @media screen and (min-width: 1440px) {
+                            top: 12%;
+                            width: 288px;
+                        }
+                        @include media(sm) {
+                            top: 18%;
+                            width: 140px;
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        right: 0;
+                        @media screen and (min-width: 1024px) {
+                            top: 25%;
+                            width: 300px;
+                        }
+                        @media screen and (min-width: 1440px) {
+                            top: 25%;
+                            width: 400px;
+                        }
+                        @include media(sm) {
+                            top: 30%;
+                            width: 210px;
+                        }
+                    }
+                    &:nth-of-type(4) {
+                        @media screen and (min-width: 1024px) {
+                            top: 30%;
+                            left: 17%;
+                            width: 260px;
+                        }
+                        @media screen and (min-width: 1440px) {
+                            top: 30%;
+                            left: 17%;
+                            width: 320px;
+                        }
+                        @include media(sm) {
+                            top: 40%;
+                            left: 0;
+                            width: 250px;
+                        }
+                    }
+                    &:nth-of-type(5) {
+                        right: 0;
+                        @media screen and (min-width: 1024px) {
+                            top: 37%;
+                            right: 20%;
+                            width: 200px;
+                        }
+                        @media screen and (min-width: 1440px) {
+                            top: 37%;
+                            right: 23%;
+                            width: 200px;
+                        }
+                        @include media(sm) {
+                            top: 65%;
+                            width: 140px;
+                        }
+                    }
+                    &:nth-of-type(6) {
+                        right: 0;
+                        @media screen and (min-width: 1024px) {
+                            top: 50%;
+                            left: 0;
+                            width: 300px;
+                        }
+                        @media screen and (min-width: 1440px) {
+                            top: 50%;
+                            left: 0;
+                            width: 360px;
+                        }
+                        @include media(sm) {
+                            top: 55%;
+                            left: 0;
+                            width: 140px;
+                        }
+                    }
+                    &:nth-of-type(7) {
+                        @media screen and (min-width: 1024px) {
+                            top: 55%;
+                            right: 20%;
+                            width: 250px;
+                        }
+                        @media screen and (min-width: 1440px) {
+                            top: 55%;
+                            right: 20%;
+                            width: 250px;
+                        }
+                        @include media(sm) {
+                            top: 65%;
+                            right: 20%;
+                            width: 140px;
+                        }
+                    }
+                    &:nth-of-type(8) {
+                        @media screen and (min-width: 1024px) {
+                            top: 67%;
+                            right: 5%;
+                            width: 300px;
+                        }
+                        @media screen and (min-width: 1440px) {
+                            top: 67%;
+                            right: 5%;
+                            width: 360px;
+                        }
+                        @include media(sm) {
+                            top: 67%;
+                            right: 5%;
+                            width: 140px;
+                        }
+                    }
+                    &:nth-of-type(9) {
+                        right: 0;
+                        @media screen and (min-width: 1024px) {
+                            top: 70%;
+                            left: 20%;
+                            width: 310px;
+                        }
+                        @media screen and (min-width: 1440px) {
+                            top: 70%;
+                            left: 20%;
+                            width: 350px;
+                        }
+                        @include media(sm) {
+                            top: 70%;
+                            left: 20%;
+                            width: 140px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -81,11 +81,12 @@
           margin-top: 60px;
           justify-content: center;
           gap: 20px;
-          a {
-            width: 40px;
-            img {
-              width: 100%;
-            }
+        }
+        > a {
+          width: 40px;
+          img {
+            width: 100%;
+            height: auto;
           }
         }
       }

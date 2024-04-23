@@ -47,23 +47,36 @@
                 }
                 @include media(sm) {
                     @include fontsize(20);
-                    margin-bottom: 30px;
+                    // margin-bottom: 30px;
+                }
+                > span{
+                    font-family: $poppins;
+                    @include fontsize(30);
+                    font-weight: 200;
+                    font-style: italic;
+                    @include media(sm) {
+                        @include fontsize(24);
+                    }
                 }
                 &-en {
                     display: inline-block;
                     font-family: $poppins;
                     color: #adadad;
-                    font-weight: 200;
+                    font-weight: 100;
                     @include media(lg) {
                         @include fontsize(52);
                         margin-left: -60px;
                     }
                     @include media(sm) {
-                        @include fontsize(28);
+                        @include fontsize(20);
+                        margin-bottom: 20px;
+                        margin-left: 80px;
+                        font-weight: 200;
                     }
                 }
             }
             &__txt03 {
+                color: #333;
                 @include media(lg) {
                     @include fontsize(16);
                     margin-bottom: 60px;
@@ -71,7 +84,7 @@
                 }
                 @include media(sm) {
                     @include fontsize(14);
-                    line-height: 2rem;
+                    line-height: 1.8rem;
                     margin-bottom: 40px;
                 }
                 .large {

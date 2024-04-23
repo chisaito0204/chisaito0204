@@ -116,6 +116,10 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            img{
+                width: 100%;
+                height: auto;
+            }
         }
         &__list {
             @include media(lg) {
@@ -177,6 +181,7 @@
                 width: 40px;
                 img {
                     width: 100%;
+                    height: auto;
                 }
             }
         }

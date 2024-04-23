@@ -139,6 +139,10 @@
                     @include media(sm) {
                         display: none;
                     }
+                    a{
+                        color: #0693e3;
+                        border-bottom: solid 1px #0693e3;
+                    }
                 }
                 &--more {
                     font-family: $poppins;
