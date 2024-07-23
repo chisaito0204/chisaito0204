@@ -139,8 +139,8 @@ get_header();
 					<p class="top__aboutBox__profile02--txt01">
 						<span class="indent04">2018年~ 共立女子大学家政学部建築デザイン学科デザインコース(グラフィック専攻)卒業</span>
 						<span class="indent04">2018年~ SES企業にてITを学ぶ、現場ではMySQLを学ぶ</span>
-						<span class="indent04">2019年~ Web受託会社にてフロントエンドエンジニアとしてECを中心とした Web制作・開発に携わる</span>
-						<span class="indent04">2023年~ 現在。別のWeb受託会社へ、アニメーションを中心としたWeb制作に携わる</span>
+						<span class="indent04">2019年~ スタートアップ企業にてフロントエンドエンジニアとしてECを中心とした Web制作・開発に携わる</span>
+						<span class="indent04">2023年~ 現在。Web受託会社へ、アニメーションを中心としたWeb制作に携わる</span>
 					</p>
 					<p class="top__aboutBox__profile02--ttl">
 						<span class="num poppins">03</span> . Skills <span class="sub noto">技<span class="white">術</span></span>
