@@ -131,7 +131,7 @@ get_header();
 										$age = floor(($now - $birthday) / 10000);
 										echo $age; ?>)、みずがめ座、埼玉出身。<br />
 						親の仕事の都合で埼玉→タイ→東京と転々。<br>趣味は競馬を細々と、あとは旅行しながら一眼で撮影するのが好きです。<br />
-						WordPressの組み込みやGSAPを用いたアニメーション制作、LP作成、ECサイトの開発保守などをやっています。<br />
+						WordPressの組み込みやGSAPを用いたアニメーション制作、LP作成、ECサイト内部の機能開発などをやってきました。<br />
 					</p>
 					<p class="top__aboutBox__profile02--ttl">
 						<span class="num poppins">02</span> . Career <span class="sub noto"><span class="white">経</span>歴</span>
@@ -150,7 +150,7 @@ get_header();
 					<p class="top__aboutBox__profile02--txt01 poppins"><span class="sk">Languages</span></p>
 					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・HTML5 / CSS(sass) / PHP / JavaScript / TypeScript / MySQL</span></p>
 					<p class="top__aboutBox__profile02--txt01 poppins"><span class="sk">Library・Framework・CMS・etc</span></p>
-					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・gulp / webpack / ejs / Astro / Vue.js / Node.js / npm script / Babel / jQuery / GSAP / Swiper.js / lenis / Tailwind CSS / WordPress / EC-CUBE /Smarty / Twig / microCMS</span></p>
+					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・gulp / webpack / ejs / Astro / Vue.js / Node.js / npm script / Linux / jQuery / GSAP / Swiper.js / Tailwind CSS / WordPress / EC-CUBE / Smarty / Twig / microCMS / Shopify</span></p>
 					<p class="top__aboutBox__profile02--ttl">
 						<span class="num poppins">04</span> . Favorite <span class="sub noto">すき<span class="white">な</span>もの</span>
 					</p>
