@@ -131,7 +131,7 @@ get_header();
 										$age = floor(($now - $birthday) / 10000);
 										echo $age; ?>)、みずがめ座、埼玉出身。<br />
 						親の仕事の都合で埼玉→タイ→東京と転々。<br>趣味は競馬を細々と、あとは旅行しながら一眼で撮影するのが好きです。<br />
-						WordPressの組み込みやGSAPを用いたアニメーション制作、LP作成、ECサイト内部の機能開発などをやってきました。<br />
+						WordPressの組み込みやGSAPを用いたアニメーション制作、LP制作、ECサイト内部の機能開発などをやってきました。<br />
 					</p>
 					<p class="top__aboutBox__profile02--ttl">
 						<span class="num poppins">02</span> . Career <span class="sub noto"><span class="white">経</span>歴</span>
