@@ -11,6 +11,18 @@ get_header();
       <h2 class="modTitle works">Works..</h2>
       <p class="modSubTitle">個人で請け負って制作したものです。</p>
       <ul class="top__worksList">
+      <li>
+					<a href="https://leia-dance.jp/" target="_blank">
+						<figure class="top__worksList--img">
+							<img class="js-parallax lg-only" src="<?php echo esc_url(get_theme_file_uri('/assets/img/top/works03.webp')); ?>" width="1200" height="300" alt="Leia Dance Studio" />
+							<img class="js-parallax sm-only" src="<?php echo esc_url(get_theme_file_uri('/assets/img/top/sp/works03.webp')); ?>" width="500" height="310" alt="Leia Dance Studio" />
+						</figure>
+					</a>
+					<p class="top__worksList--txt">
+					Leia Dance Studio<br />
+						構成・要件定義・デザイン/コーディング/WordPress実装対応
+					</p>
+				</li>
         <li>
           <a href="https://mjo-style.com/" target="_blank">
             <figure class="top__worksList--img">
