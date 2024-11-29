@@ -483,6 +483,10 @@
                             transform: translate(0%, -50%);
                         }
                     }
+                    > a{
+                        border-bottom: solid 1px #1a1a1a;
+                        font-weight: 500;
+                    }
                 }
                 &--txt02 {
                     font-family: $noto;

@@ -1089,6 +1089,10 @@ button {
   right: 0;
   transform: translate(0%, -50%);
 }
+.top__aboutBox__profile02--txt01 > a {
+  border-bottom: solid 1px #1a1a1a;
+  font-weight: 500;
+}
 .top__aboutBox__profile02--txt02 {
   font-family: "Noto Sans JP", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
   color: #333;

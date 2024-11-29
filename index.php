@@ -131,16 +131,19 @@ get_header();
 										$age = floor(($now - $birthday) / 10000);
 										echo $age; ?>)、みずがめ座、埼玉出身。<br />
 						親の仕事の都合で埼玉→タイ→東京と転々。<br>趣味は競馬を細々と、あとは旅行しながら一眼で撮影するのが好きです。<br />
-						WordPressの組み込みやGSAPを用いたアニメーション制作、LP制作、ECサイト内部の機能開発などをやってきました。<br />
+						競馬はmicroCMSで作った<a href="https://uma-blog.vercel.app/" target="_blank">簡易ブログサイト</a>の方に予想&買い目と、自動計算で回収率の記録を残してます。<br>
+						WordPressの組込みやGSAPを用いたアニメーション制作、LP制作、ECサイト内部の機能開発などをやってきました。<br />
+						最近はReactとTypeScriptの勉強をしながら、アプリ開発の業務も行なっています。
 					</p>
 					<p class="top__aboutBox__profile02--ttl">
 						<span class="num poppins">02</span> . Career <span class="sub noto"><span class="white">経</span>歴</span>
 					</p>
 					<p class="top__aboutBox__profile02--txt01">
-						<span class="indent04">2018年~ 共立女子大学家政学部建築デザイン学科デザインコース(グラフィック専攻)卒業</span>
+						<span class="indent04">2018年~ 共立女子大学 建築デザイン学部デザイン学科(グラフィック専攻)卒業</span>
 						<span class="indent04">2018年~ SES企業にてITを学ぶ、現場ではMySQLを学ぶ</span>
 						<span class="indent04">2019年~ スタートアップ企業にてフロントエンドエンジニアとしてECを中心とした Web制作・開発に携わる</span>
-						<span class="indent04">2023年~ 現在。Web受託会社へ、アニメーションを中心としたWeb制作に携わる</span>
+						<span class="indent04">2023年~ Web受託会社へ、アニメーションを中心としたWeb制作に携わる</span>
+						<span class="indent04">2024年~ 現在。Reactを用いたアプリ開発に携わる</span>
 					</p>
 					<p class="top__aboutBox__profile02--ttl">
 						<span class="num poppins">03</span> . Skills <span class="sub noto">技<span class="white">術</span></span>
@@ -148,15 +151,14 @@ get_header();
 					<p class="top__aboutBox__profile02--txt01 poppins"><span class="sk">Tools</span></p>
 					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・VSCode / Github / Docker / vagrant / iTerm2 / Photoshop / Illustrator / XD / Figma</span></p>
 					<p class="top__aboutBox__profile02--txt01 poppins"><span class="sk">Languages</span></p>
-					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・HTML5 / CSS(sass) / PHP / JavaScript / TypeScript / MySQL</span></p>
+					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・HTML / CSS(sass) / PHP / JavaScript / TypeScript / MySQL</span></p>
 					<p class="top__aboutBox__profile02--txt01 poppins"><span class="sk">Library・Framework・CMS・etc</span></p>
-					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・gulp / webpack / ejs / Astro / Vue.js / Node.js / npm script / Linux / jQuery / GSAP / Swiper.js / Tailwind CSS / WordPress / EC-CUBE / Smarty / Twig / microCMS / Shopify</span></p>
+					<p class="top__aboutBox__profile02--txt02 poppins"><span class="indent01">・gulp / webpack / ejs / Astro / React / Node.js / npm script / Linux / jQuery / GSAP / Swiper.js / Tailwind CSS / WordPress / EC-CUBE / Smarty / Twig / microCMS / Shopify</span></p>
 					<p class="top__aboutBox__profile02--ttl">
 						<span class="num poppins">04</span> . Favorite <span class="sub noto">すき<span class="white">な</span>もの</span>
 					</p>
 					<p class="top__aboutBox__profile02--txt01">
-						辛いもの、高いチョコ、パズルゲーム、毛の生えた動物、桜<br />
-						好きなライブラリ：jQuery
+						辛い食べもの、高いチョコ、パズルゲーム、毛の生えた動物、桜<br />
 					</p>
 					<a href="/about" class="modBtn"><span class="allow">more</span></a>
 				</div>

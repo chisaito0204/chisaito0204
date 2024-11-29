@@ -52,7 +52,7 @@
 					<a href="https://www.instagram.com/02_chiii" target="_blank"><img src="<?php echo esc_url(get_theme_file_uri('/assets/img/common/instagram.svg')); ?>" width="30" height="30" alt="Instagram" /></a>
 					<a href="https://uma-blog.vercel.app/" target="_blank"><img src="<?php echo esc_url(get_theme_file_uri('/assets/img/common/micro.svg')); ?>" width="30" height="30" alt="microCMS"></a>
 					<a href="https://github.com/chisaito0204" target="_blank"><img src="<?php echo esc_url(get_theme_file_uri('/assets/img/common/github-mark.svg')); ?>" width="98" height="96" alt="microCMS"></a>
-					<a href="https://note.com/calm_hornet146" target="_blank"><img src="<?php echo esc_url(get_theme_file_uri('/assets/img/common/note.svg')); ?>" width="35" height="35" alt="note" /></a>
+					<!-- <a href="https://note.com/calm_hornet146" target="_blank"><img src="<?php //echo esc_url(get_theme_file_uri('/assets/img/common/note.svg')); ?>" width="35" height="35" alt="note" /></a> -->
 				</div>
 			</div>
 		</div>
